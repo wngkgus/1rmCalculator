@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>1RM Calculator - 운동 계산기</title>
+    <link>https://1rmcalculator.wngkgus.workers.dev/</link>
+    <description>1RM, 스트렝스 레벨, 러닝, 다이어트, 탄단지, BMI, 칼로리 계산기를 제공하는 피트니스 계산기 사이트입니다.</description>
+    <language>ko-KR</language>
+    <item>
+      <title>1RM 계산기</title>
+      <link>https://1rmcalculator.wngkgus.workers.dev/1rm.html</link>
+      <guid isPermaLink="true">https://1rmcalculator.wngkgus.workers.dev/1rm.html</guid>
+      <description>중량과 반복 횟수로 예상 1RM을 계산합니다.</description>
+    </item>
+    <item>
+      <title>벤치프레스 1RM 계산기</title>
+      <link>https://1rmcalculator.wngkgus.workers.dev/bench-press-1rm.html</link>
+      <guid isPermaLink="true">https://1rmcalculator.wngkgus.workers.dev/bench-press-1rm.html</guid>
+      <description>벤치프레스 예상 1RM과 훈련 중량을 확인합니다.</description>
+    </item>
+    <item>
+      <title>스쿼트 1RM 계산기</title>
+      <link>https://1rmcalculator.wngkgus.workers.dev/squat-1rm.html</link>
+      <guid isPermaLink="true">https://1rmcalculator.wngkgus.workers.dev/squat-1rm.html</guid>
+      <description>스쿼트 예상 1RM과 훈련 중량을 확인합니다.</description>
+    </item>
+    <item>
+      <title>데드리프트 1RM 계산기</title>
+      <link>https://1rmcalculator.wngkgus.workers.dev/deadlift-1rm.html</link>
+      <guid isPermaLink="true">https://1rmcalculator.wngkgus.workers.dev/deadlift-1rm.html</guid>
+      <description>데드리프트 예상 1RM과 훈련 중량을 확인합니다.</description>
+    </item>
+    <item>
+      <title>오버헤드프레스 1RM 계산기</title>
+      <link>https://1rmcalculator.wngkgus.workers.dev/shoulder-press-1rm.html</link>
+      <guid isPermaLink="true">https://1rmcalculator.wngkgus.workers.dev/shoulder-press-1rm.html</guid>
+      <description>오버헤드프레스 1RM 관련 정보를 확인합니다.</description>
+    </item>
+    <item>
+      <title>스트렝스 레벨 계산기</title>
+      <link>https://1rmcalculator.wngkgus.workers.dev/strength-level.html</link>
+      <guid isPermaLink="true">https://1rmcalculator.wngkgus.workers.dev/strength-level.html</guid>
+      <description>체중 대비 주요 운동 기록으로 스트렝스 레벨을 확인합니다.</description>
+    </item>
+    <item>
+      <title>러닝 기록 계산기</title>
+      <link>https://1rmcalculator.wngkgus.workers.dev/running.html</link>
+      <guid isPermaLink="true">https://1rmcalculator.wngkgus.workers.dev/running.html</guid>
+      <description>거리와 시간으로 평균 페이스와 속도를 계산합니다.</description>
+    </item>
+    <item>
+      <title>다이어트 계산기</title>
+      <link>https://1rmcalculator.wngkgus.workers.dev/diet.html</link>
+      <guid isPermaLink="true">https://1rmcalculator.wngkgus.workers.dev/diet.html</guid>
+      <description>현재 체중과 목표 체중, 기간을 바탕으로 목표 변화를 계산합니다.</description>
+    </item>
+    <item>
+      <title>탄단지 계산기</title>
+      <link>https://1rmcalculator.wngkgus.workers.dev/macro.html</link>
+      <guid isPermaLink="true">https://1rmcalculator.wngkgus.workers.dev/macro.html</guid>
+      <description>목표 칼로리와 비율에 따른 탄수화물·단백질·지방 섭취량을 계산합니다.</description>
+    </item>
+    <item>
+      <title>BMI 계산기</title>
+      <link>https://1rmcalculator.wngkgus.workers.dev/bmi.html</link>
+      <guid isPermaLink="true">https://1rmcalculator.wngkgus.workers.dev/bmi.html</guid>
+      <description>키와 체중을 바탕으로 BMI를 계산합니다.</description>
+    </item>
+    <item>
+      <title>칼로리 계산기</title>
+      <link>https://1rmcalculator.wngkgus.workers.dev/calorie.html</link>
+      <guid isPermaLink="true">https://1rmcalculator.wngkgus.workers.dev/calorie.html</guid>
+      <description>BMR과 활동량을 바탕으로 예상 필요 칼로리를 계산합니다.</description>
+    </item>
+    <item>
+      <title>RPE 가이드</title>
+      <link>https://1rmcalculator.wngkgus.workers.dev/rpe.html</link>
+      <guid isPermaLink="true">https://1rmcalculator.wngkgus.workers.dev/rpe.html</guid>
+      <description>웨이트 트레이닝 RPE에 관한 정보를 확인합니다.</description>
+    </item>
+    <item>
+      <title>웨이트 트레이닝 가이드</title>
+      <link>https://1rmcalculator.wngkgus.workers.dev/weight-training.html</link>
+      <guid isPermaLink="true">https://1rmcalculator.wngkgus.workers.dev/weight-training.html</guid>
+      <description>웨이트 트레이닝과 기록 관리 정보를 확인합니다.</description>
+    </item>
+  </channel>
+</rss>
