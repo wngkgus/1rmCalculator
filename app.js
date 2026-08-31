@@ -1,0 +1,1 @@
+function calc1rm(){let w=+document.querySelector('#weight').value,r=+document.querySelector('#reps').value;if(!(w>0&&r>0)){return}let one=r===1?w:w*(1+r/30);document.querySelector('#out').innerHTML=`예상 1RM <strong>${one.toFixed(1)} kg</strong><br><span class="small">Epley 공식 기준 · 실제 최대중량과 차이가 날 수 있습니다.</span>`}
