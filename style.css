@@ -12,5 +12,11 @@
 .partner-disclosure strong{color:#344054;margin-right:6px}
 @media(max-width:520px){.partner-disclosure{font-size:13px;padding:12px}}
 
+/* 1RM 상세 결과 카드 */
+.rm-result{background:#eef0f4!important;color:#101828;text-align:left!important;padding:18px!important}.rm-summary{display:flex;justify-content:space-between;align-items:center;gap:14px}.rm-label{display:block;font-size:14px;color:#667085}.rm-summary strong{display:block;font-size:38px;color:#101828!important;margin:4px 0}.rm-summary p{margin:0;color:#475467;font-size:14px}.rm-tip{border:1px solid #d0d5dd;background:white;border-radius:9px;padding:10px 12px;font-size:12px;color:#475467}.rm-levels,.rm-reps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:9px;margin-top:14px}.rm-box{border:1px solid #d0d5dd;border-radius:9px;background:#fff;padding:10px;min-height:68px}.rm-box span{display:flex;justify-content:space-between;font-size:12px;color:#667085}.rm-box span b{color:#fff;background:#101828;padding:2px 5px;border-radius:3px;font-size:10px}.rm-box>b,.rm-box>strong{display:block;font-size:18px;margin-top:7px}.rm-box small{display:block;color:#667085;font-size:11px;margin-top:3px}.rm-reps .active{background:#101828;color:#fff;border-color:#101828}.rm-reps .active span,.rm-reps .active strong{color:#fff}.rm-result h3{font-size:14px;margin:18px 0 8px}.rm-note{font-size:11px;color:#667085;margin:14px 0 0;text-align:center}@media(max-width:600px){.rm-summary{display:block}.rm-tip{margin-top:12px}.rm-levels,.rm-reps{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
 /* 1RM brand logo */
 .brand{display:inline-flex!important;align-items:center;gap:9px}.brand img{width:36px;height:36px;border-radius:9px;object-fit:cover;flex:none}.brand span{white-space:nowrap}
+
+/* 운동소통방 메뉴 제거 */
+.nav a[href^="https://open.kakao.com"]{display:none!important}

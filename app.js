@@ -21,5 +21,13 @@ function calc1rm(){
     one=r===1?w:w*(1+r/30);
     note='Epley 공식 기준 · 실제 최대중량과 차이가 날 수 있습니다.';
   }
-  document.querySelector('#out').innerHTML=`예상 1RM <strong>${one.toFixed(1)} kg</strong><br><span class="small">${note}</span>`;
+  const rounded = n => (Math.round(n * 10) / 10).toFixed(1);
+  const levels = [['고강도', .90], ['스트렝스', .85], ['볼륨', .75], ['자세 점검', .65]];
+  const reps = Array.from({length: 12}, (_, i) => i + 1);
+  const values = reps.map(n => {
+    if (rmRatio[exercise] && rmRatio[exercise][n]) return one * rmRatio[exercise][n];
+    return n === 1 ? one : one / (1 + n / 30);
+  });
+  document.querySelector('#out').className = 'result rm-result';
+  document.querySelector('#out').innerHTML = `<div class="rm-summary"><div><span class="rm-label">예상 1RM</span><strong>${rounded(one)} kg</strong><p>${exercise} · ${w} kg × ${r}회 기준</p></div><span class="rm-tip">실제 최대 시도 전에는 워밍업과 보조자를 챙겨주세요.</span></div><div class="rm-levels">${levels.map(([name, ratio]) => `<div class="rm-box"><span>${name}</span><b>${rounded(one * ratio)} kg</b><small>1RM ${Math.round(ratio * 100)}%</small></div>`).join('')}</div><h3>반복 수별 예상 중량</h3><div class="rm-reps">${reps.map((n, i) => `<div class="rm-box ${n === r ? 'active' : ''}"><span>${n}RM ${n === r ? '<b>입력한 횟수</b>' : ''}</span><strong>${rounded(values[i])} kg</strong></div>`).join('')}</div><p class="rm-note">${note}</p>`;
 }
