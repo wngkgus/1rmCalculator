@@ -7,11 +7,6 @@
 @media(max-width:520px){.products{grid-template-columns:1fr}}
 
 
-/* 쿠팡 파트너스 고정 고지 */
-.partner-disclosure{margin-top:12px;padding:13px 15px;border:1px solid #e4e7ec;border-radius:10px;background:#f7f8fa;color:#475467;font-size:14px;line-height:1.55;white-space:normal}
-.partner-disclosure strong{color:#344054;margin-right:6px}
-@media(max-width:520px){.partner-disclosure{font-size:13px;padding:12px}}
-
 /* 넓어진 계산기 영역과 한 줄 제목 */
 .hero{grid-template-columns:1.45fr .55fr}
 .hero h1{font-size:34px;white-space:nowrap}
@@ -29,5 +24,4 @@
 /* 1RM brand logo */
 .brand{display:inline-flex!important;align-items:center;gap:9px}.brand img{width:36px;height:36px;border-radius:9px;object-fit:cover;flex:none}.brand span{white-space:nowrap}
 
-/* 운동소통방 메뉴 제거 */
-.nav a[href^="https://open.kakao.com"]{display:none!important}
+.strength-faq{background:#fff;border:1px solid #dbe3ef;border-radius:18px;padding:26px;box-shadow:0 8px 24px rgba(16,24,40,.05)}.faq-heading{text-align:center;border-bottom:1px solid #e4e7ec;padding:4px 0 20px}.faq-heading span{display:inline-block;color:#1769e8;font-size:11px;font-weight:800;letter-spacing:1.5px;margin-bottom:7px}.faq-heading h2{margin:0;color:#101828;font-size:28px}.faq-heading p{margin:9px 0 0;color:#667085;font-size:14px}.faq-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:18px}.faq-item{border:1px solid #e4e7ec;border-radius:12px;padding:0!important;background:#f8fafc;overflow:hidden}.faq-item summary{cursor:pointer;list-style:none;padding:16px 18px;font-size:16px;font-weight:800;color:#101828;line-height:1.45}.faq-item summary::-webkit-details-marker{display:none}.faq-item summary::before{content:'▶';display:inline-block;margin-right:9px;color:#101828;font-size:12px;transition:transform .2s}.faq-item[open] summary::before{transform:rotate(90deg)}.faq-item[open] summary{background:#f1f3f5;border-bottom:1px solid #e4e7ec}.faq-item p{margin:0;padding:17px 18px 19px;background:#fff;color:#475467;font-size:14px;line-height:1.75}@media(max-width:700px){.strength-faq{padding:20px 15px}.faq-heading h2{font-size:24px}.faq-list{grid-template-columns:1fr}.faq-item summary{font-size:15px;padding:15px}.faq-item p{font-size:13px;padding:15px;line-height:1.7}}
