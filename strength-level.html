@@ -1,22 +1,23 @@
-<!doctype html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>스트렝스 레벨 계산 | 운동 계산 도구</title><meta name="description" content="주요 웨이트 기록을 기준으로 운동 수준을 살펴보세요."><link rel="canonical" href="https://example.com/strength-level.html"><link rel="icon" href="favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png"><link rel="icon" type="image/png" sizes="192x192" href="assets/favicon-192.png"><link rel="apple-touch-icon" sizes="180x180" href="assets/favicon-180.png"><link rel="manifest" href="site.webmanifest"><link rel="stylesheet" href="style.css">
+<!DOCTYPE html>
+<html lang="ko"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><title>스트렝스 레벨 계산 | 운동 계산 도구</title><meta content="주요 웨이트 기록을 기준으로 운동 수준을 살펴보세요." name="description"/><link href="favicon.ico" rel="icon" sizes="any"/><link href="assets/favicon-32.png" rel="icon" sizes="32x32" type="image/png"/><link href="assets/favicon-192.png" rel="icon" sizes="192x192" type="image/png"/><link href="assets/favicon-180.png" rel="apple-touch-icon" sizes="180x180"/><link href="site.webmanifest" rel="manifest"/><link href="style.css" rel="stylesheet"/>
 <style>/* centered partners disclosure */
 .affiliate-disclosure,.partners-disclosure,.disclosure,.partner-note,.affiliate-note{text-align:center!important;}
 </style>
-</head><body><div class="top"><div class="nav"><a class="brand" href="index.html"><img src="assets/favicon-64.png" alt="" width="36" height="36"> <span>1RM 계산기</span></a><a href="1rm.html">1RM</a><a href="running.html">러닝 기록</a><a href="diet.html">다이어트</a><a href="macro.html">탄단지</a><a href="bmi.html">BMI</a><a href="calorie.html">칼로리</a></div></div><main class="wrap"><article class="card content"><h1>스트렝스 레벨 계산</h1><p>체중과 주요 웨이트 1RM을 입력하면 체중 대비 중량과 간단한 스트렝스 레벨을 확인할 수 있습니다.</p>
+<link href="https://1rmcalculator.kr/strength-level.html" rel="canonical"/></head><body><div class="top"><div class="nav"><a class="brand" href="index.html"><img alt="" height="36" src="assets/favicon-64.png" width="36"/> <span>1RM 계산기</span></a><a href="1rm.html">1RM</a><a href="running.html">러닝 기록</a><a href="diet.html">다이어트</a><a href="macro.html">탄단지</a><a href="bmi.html">BMI</a><a href="calorie.html">칼로리</a></div></div><main class="wrap"><article class="card content"><h1>스트렝스 레벨 계산</h1><p>체중과 주요 웨이트 1RM을 입력하면 체중 대비 중량과 간단한 스트렝스 레벨을 확인할 수 있습니다.</p>
 <div class="calcbox" style="margin:24px 0;padding:22px;border:1px solid #e5e7eb;border-radius:16px">
 <h2 style="margin-top:0">스트렝스 레벨 계산기</h2>
 <div class="grid2">
 <label>성별<select id="slSex"><option value="male">남성</option><option value="female">여성</option></select></label>
-<label>체중 (kg)<input id="slBw" type="number" min="30" max="300" step="0.1" value="70"></label>
-<label>벤치프레스 1RM (kg)<input id="slBench" type="number" min="0" max="500" step="0.5" value="80"></label>
-<label>스쿼트 1RM (kg)<input id="slSquat" type="number" min="0" max="700" step="0.5" value="100"></label>
-<label>데드리프트 1RM (kg)<input id="slDead" type="number" min="0" max="700" step="0.5" value="120"></label>
-<label>오버헤드프레스 1RM (kg)<input id="slOhp" type="number" min="0" max="400" step="0.5" value="50"></label>
+<label>체중 (kg)<input id="slBw" max="300" min="30" step="0.1" type="number" value="70"/></label>
+<label>벤치프레스 1RM (kg)<input id="slBench" max="500" min="0" step="0.5" type="number" value="80"/></label>
+<label>스쿼트 1RM (kg)<input id="slSquat" max="700" min="0" step="0.5" type="number" value="100"/></label>
+<label>데드리프트 1RM (kg)<input id="slDead" max="700" min="0" step="0.5" type="number" value="120"/></label>
+<label>오버헤드프레스 1RM (kg)<input id="slOhp" max="400" min="0" step="0.5" type="number" value="50"/></label>
 </div>
-<button id="slBtn" class="btn" type="button" style="margin-top:16px">스트렝스 레벨 계산하기</button>
-<div id="slResult" style="margin-top:18px" aria-live="polite"></div>
+<button class="btn" id="slBtn" style="margin-top:16px" type="button">스트렝스 레벨 계산하기</button>
+<div aria-live="polite" id="slResult" style="margin-top:18px"></div>
 </div>
-<h2>스트렝스 레벨 계산 사용 방법</h2><p>각 종목의 실제 1RM 또는 1RM 계산기로 구한 예상 기록을 입력하세요. 아래 등급은 체중 대비 중량을 이용한 간단한 참고 지표이며 연령, 성별, 훈련 경력 등에 따라 실제 수준은 달라질 수 있습니다.</p><h2>함께 사용하면 좋은 계산기</h2><p><a class="blue" href="1rm.html">1RM 계산기</a> · <a class="blue" href="running.html">러닝 기록</a> · <a class="blue" href="macro.html">탄단지 계산기</a> · <a class="blue" href="bmi.html">BMI 계산기</a></p></article></main><div class="footer"><div class="footerin"><b>1RM 계산기 · 운동 계산 도구</b><p class="small">계산 결과는 참고용입니다. 운동 수행 능력과 건강 상태에 따라 결과가 달라질 수 있습니다.</p></div></div><script>
+<h2>스트렝스 레벨 계산 사용 방법</h2><p>각 종목의 실제 1RM 또는 1RM 계산기로 구한 예상 기록을 입력하세요. 아래 등급은 체중 대비 중량을 이용한 간단한 참고 지표이며 연령, 성별, 훈련 경력 등에 따라 실제 수준은 달라질 수 있습니다.</p><h2>함께 사용하면 좋은 계산기</h2><p><a class="blue" href="1rm.html">1RM 계산기</a> · <a class="blue" href="running.html">러닝 기록</a> · <a class="blue" href="macro.html">탄단지 계산기</a> · <a class="blue" href="bmi.html">BMI 계산기</a></p></article></main><div class="footer"><div class="footerin"><b>1RM 계산기 · 운동 계산 도구</b><p class="small">계산 결과는 참고용입니다. 운동 수행 능력과 건강 상태에 따라 결과가 달라질 수 있습니다.</p><p class="small"><a href="about.html">사이트 소개</a> · <a href="privacy.html">개인정보처리방침</a> · <a href="terms.html">이용 안내</a> · <a href="contact.html">문의</a></p></div></div><script>
 (function(){
  const $=id=>document.getElementById(id);
  const standards={male:{bench:[.6,.85,1.1,1.4],squat:[.8,1.15,1.5,1.9],dead:[1,1.4,1.8,2.2],ohp:[.4,.6,.8,1]},female:{bench:[.35,.55,.75,1],squat:[.55,.85,1.15,1.5],dead:[.7,1.05,1.4,1.8],ohp:[.25,.4,.55,.7]}};
