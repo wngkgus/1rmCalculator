@@ -1,0 +1,8 @@
+
+*.zip
+worker.js
+wrangler.jsonc
+.git/
+.github/
+README*
+DEPLOY_CHECKLIST.txt
