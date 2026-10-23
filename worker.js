@@ -14,7 +14,7 @@ export default {
       return Response.redirect(url.toString(), 301);
     }
 
-    if (url.hostname === "1rmcalculator.wngkgus.workers.dev" || url.hostname === "www.1rmcalculator.kr") {
+    if (url.hostname === "1rmcalculator.wngkgus.workers.dev") {
       url.hostname = "1rmcalculator.kr";
       url.protocol = "https:";
       return Response.redirect(url.toString(), 301);
